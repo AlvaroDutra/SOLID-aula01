@@ -1,3 +1,3 @@
 export interface INotificador{
-    enviar(menssagem: string): void
+    enviar(mensagem: string): void
 }

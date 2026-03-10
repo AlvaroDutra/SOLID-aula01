@@ -1,3 +1,3 @@
-    export interface IPrecessadorPagamentos{
-        executar(valor: number): void
-    }
+export interface IProcessadorPagamentos{
+    executar(valor: number): void
+}

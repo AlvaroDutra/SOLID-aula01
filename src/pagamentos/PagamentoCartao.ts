@@ -1,7 +1,7 @@
-import { IPrecessadorPagamentos } from "../interfaces/IProcessadorPagamento";
+import { IProcessadorPagamentos } from "../interfaces/IProcessadorPagamento";
 
 
-export class PagamentoCartao implements IPrecessadorPagamentos{
+export class PagamentoCartao implements IProcessadorPagamentos{
     executar(valor: number): void {
         console.log(`Processando pagamento no valor de ${valor} via cartão...`)
     }

@@ -11,7 +11,7 @@ const servico = new PedidoService(impostoCobrado, meioPagamento, notificador)
 
 const pedido1 = {
     preco: 60,
-    quantidade: 1
+    quantidade: 2
 }
 
-servico.processarPedido(60, 1)
+servico.processarPedido(pedido1.preco, pedido1.quantidade)
