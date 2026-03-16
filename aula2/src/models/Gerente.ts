@@ -1,8 +1,9 @@
 import { IFuncionario } from "../interfaces/IFuncionario";
 import { ILider } from "../interfaces/ILider";
+import { IRegistraPonto } from "../interfaces/IRegistraPonto";
 import { IRemunerado } from "../interfaces/IRemunerado";
 
-export class Gerente implements IFuncionario, IRemunerado, ILider {
+export class Gerente implements IFuncionario, IRemunerado, ILider, IRegistraPonto {
     trabalhar(): void {
         console.log("Gerente trabalhando.");
     }

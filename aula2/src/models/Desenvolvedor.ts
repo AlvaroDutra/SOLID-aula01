@@ -1,8 +1,9 @@
 import { IDesenvolvedor } from "../interfaces/IDesenvolvedor";
 import { IFuncionario } from "../interfaces/IFuncionario";
+import { IRegistraPonto } from "../interfaces/IRegistraPonto";
 import { IRemunerado } from "../interfaces/IRemunerado";
 
-export class Desenvolvedor implements IFuncionario, IRemunerado, IDesenvolvedor{
+export class Desenvolvedor implements IFuncionario, IRemunerado, IDesenvolvedor, IRegistraPonto{
     trabalhar(): void {
         console.log("Desenvolvedor trabalhando.");
     }

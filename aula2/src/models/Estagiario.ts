@@ -1,8 +1,9 @@
 import { IBolsista } from "../interfaces/IBolsista";
 import { IDesenvolvedor } from "../interfaces/IDesenvolvedor";
 import { IFuncionario } from "../interfaces/IFuncionario";
+import { IRegistraPonto } from "../interfaces/IRegistraPonto";
 
-export class Estagiario implements IFuncionario, IBolsista, IDesenvolvedor {
+export class Estagiario implements IFuncionario, IBolsista, IDesenvolvedor, IRegistraPonto{
     trabalhar(): void {
         console.log("Estagiário trabalhando.")
     }
